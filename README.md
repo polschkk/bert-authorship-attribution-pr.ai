@@ -32,11 +32,12 @@ AP Thesis project investigating what textual features drive correct classificati
 ├── README.md
 ├── requirements.txt
 │
-├── baseline.ipynb                  # BERT fine-tuning & multi-seed training
-├── attribution.ipynb               # Token-level attribution (IG, SHAP, AR) on full validation
-├── attribution_enhanced.ipynb      # Visualization & statistical analysis of attributions
-├── pan25_eda.ipynb                 # Exploratory data analysis — PAN25 dataset
-├── authormix_eda.ipynb             # Exploratory data analysis — AuthorMix dataset
+├── notebooks/                         
+│   ├── baseline.ipynb                  # BERT fine-tuning & multi-seed training
+│   ├── attribution.ipynb               # Token-level attribution (IG, SHAP, AR) on full validation
+│   ├── attribution_enhanced.ipynb      # Visualization & statistical analysis of attributions
+│   ├── pan25_eda.ipynb                 # Exploratory data analysis — PAN25 dataset
+│   └── authormix_eda.ipynb             # Exploratory data analysis — AuthorMix dataset
 │
 ├── data/
 │   ├── pan25/
