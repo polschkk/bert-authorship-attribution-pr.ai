@@ -41,13 +41,12 @@ Practical work project investigating what textual features drive correct classif
 │
 ├── data/
 │   ├── pan25/
-│   │   ├── train.jsonl             # PAN25 training set
-│   │   └── val.jsonl               # PAN25 validation set
-│   └── style-remix/
-│       └── AuthorMix/
-│           ├── AuthorMix-train.json
-│           ├── AuthorMix-val.json
-│           └── AuthorMix-test.json
+│   │   ├── train.jsonl                 
+│   │   └── val.jsonl               
+│   └── AuthorMix/
+│       ├── AuthorMix-train.json
+│       ├── AuthorMix-val.json
+│       └── AuthorMix-test.json
 │
 ├── results/                         
 │   ├── balanced_accuracy_summary.csv
@@ -57,7 +56,7 @@ Practical work project investigating what textual features drive correct classif
 │   └── *_agreement_summary.csv
 │
 │
-└── ATTRIBUTION_REPORT.md           # key findings
+└── ATTRIBUTION_REPORT.md               # key findings
 ```
 
 ## Notebooks
