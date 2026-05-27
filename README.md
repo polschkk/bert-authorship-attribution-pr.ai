@@ -76,8 +76,8 @@ could be targeted in future obfuscation experiments.
 │   └── plots/                                   # notebook-generated diagnostic figures
 │
 └── reports/
-    ├── REPORT_BERT.md                           # BERT attribution findings
-    └── REPORT_MODERNBERT.md                     # ModernBERT attribution findings
+    ├── report_BERT.md                           # BERT attribution findings
+    └── report_ModernBERT.md                     # ModernBERT attribution findings
 ```
 
 
